@@ -19,7 +19,7 @@ Books to Scrape:
 
 https://books.toscrape.com/
 
-The pipeline scrapes the first 5 catalogue pages and collects 100 books across multiple categories.
+The pipeline scrapes the first 5 catalogue pages and collects 100 books across 29 categories.
 
 ## Technologies
 
@@ -64,10 +64,10 @@ Price values are converted from text to float.
 
 Star ratings are converted from text to integers:
 
-One = 1  
-Two = 2  
-Three = 3  
-Four = 4  
+One = 1
+Two = 2
+Three = 3
+Four = 4
 Five = 5
 
 Availability is converted to a boolean value.
@@ -78,7 +78,7 @@ Rows with missing rating, title, or category are removed because these fields ar
 
 ## Database Design
 
-The SQLite database contains two normalized tables:
+The SQLite database contains two normalized tables.
 
 ### categories
 
@@ -122,7 +122,11 @@ The project uses:
 - pd.read_sql() to read SQL query results
 - pd.merge() to reproduce the SQL JOIN
 
-The SQL JOIN and Pandas merge results are compared for equivalence.
+The SQL JOIN and Pandas merge results were compared and produced equivalent results.
+
+## Dataset Summary
+
+The pipeline successfully scrapes 100 books across 29 categories and stores the cleaned data in a normalized SQLite database.
 
 ## How to Run
 
