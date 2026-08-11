@@ -1,0 +1,16 @@
+customer_id,order_id,product,category,quantity,price,city,payment_method
+C001,O1001,Milk,Dairy,2,60,Hyderabad,UPI
+C002,O1002,Bread,Bakery,1,40,Vijayawada,Cash
+C001,O1003,Eggs,Dairy,12,72,Hyderabad,UPI
+C003,O1004,Chips,Snacks,3,30,Chennai,Card
+C004,O1005,Apple,Fruits,5,100,Bangalore,UPI
+C002,O1006,Milk,Dairy,1,30,Vijayawada,UPI
+C005,O1007,Bread,Bakery,2,80,Hyderabad,Card
+C003,O1008,Banana,Fruits,6,60,Chennai,Cash
+C006,O1009,Coffee,Beverages,1,150,Bangalore,UPI
+C001,O1010,Chips,Snacks,2,60,Hyderabad,Card
+C007,O1011,Milk,Dairy,2,60,Vizag,UPI
+C004,O1012,Eggs,Dairy,6,36,Bangalore,Cash
+C005,O1013,Apple,Fruits,3,60,Hyderabad,UPI
+C006,O1014,Bread,Bakery,1,40,Bangalore,Card
+C007,O1015,Coffee,Beverages,2,300,Vizag,UPI
