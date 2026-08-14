@@ -100,3 +100,6 @@ Pydantic Response
 
 FastAPI /ask
 
+
+## Module 3 Status
+Support assistant implemented and tested.
